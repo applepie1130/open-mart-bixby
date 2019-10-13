@@ -18,7 +18,7 @@ module.exports.function = function searchMart (name, myLocation) {
     query: {
       'latitude': latitude,
       'longitude': longitude,
-      'query': name
+      'martName': name
     }
   };
 
