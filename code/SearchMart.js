@@ -17,8 +17,8 @@ module.exports.function = function searchMart (name, myLocation) {
     format: 'json',
     query: {
       'latitude': latitude,
-      'longitutde': longitude,
-      'name': name
+      'longitude': longitude,
+      'query': name
     }
   };
 
