@@ -1,0 +1,3 @@
+text (TelNo) {
+  description ("마트 전화번호")
+}

@@ -1,0 +1,3 @@
+text (DisplayDistance) {
+  description ("현재 위치로부터 마트 거리. 1km미만의 경우 m단위, 초과의 경우 km단위로 표기")
+}
