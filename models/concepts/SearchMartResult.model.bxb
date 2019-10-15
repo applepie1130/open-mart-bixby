@@ -1,5 +1,5 @@
 structure (SearchMartResult) {
-  description ("마트정보조회 API 응답결과 모델")
+  description ("마트정보조회 API 응답 상세결과 모델")
   property (code) {
     type (Code)
     min (Optional) max (One)
@@ -22,6 +22,14 @@ structure (SearchMartResult) {
   }
   property (holidaysInfo) {
     type (HolidaysInfo)
+    min (Optional) max (One)
+  }
+  property (latitude) {
+    type (Latitude)
+    min (Optional) max (One)
+  }
+  property (longitiude) {
+    type (Longitiude)
     min (Optional) max (One)
   }
 }

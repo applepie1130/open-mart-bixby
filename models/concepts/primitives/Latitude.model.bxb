@@ -1,0 +1,3 @@
+text (Latitude) {
+  description ("위도")
+}

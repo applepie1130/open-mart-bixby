@@ -1,0 +1,39 @@
+result-view {    
+    match: SearchMartResult (searchMartResult) {
+      from-output: SearchMart
+    }
+    message {
+      template ("대형마트 정보:")
+    }
+
+    render {
+      if (size(searchMartResult) > 1) {
+        list-of (searchMartResult) {
+          has-details (true)
+          where-each (item) {
+            layout-macro (searchResultListLayout) {
+              param (searchMartResult) {
+                expression (item)
+              }
+            }
+          }
+        }
+      } else-if (size(searchMartResult) == 1) {
+        layout-match (searchMartResult) {
+          mode (Details)
+        }
+      }
+    }
+
+    conversation-drivers {
+      conversation-driver {
+        template ("이마트 휴일정보 알려줘")
+      }
+      conversation-driver {
+        template ("롯데마트 휴일정보 알려줘")
+      }
+      conversation-driver {
+        template ("홈플러스 양재점 휴일정보 알려줘")
+      }
+    }
+}

@@ -23,6 +23,10 @@ module.exports.function = function searchMart (name, myLocation) {
   };
 
   // Call API
-  var response = http.getUrl(config.get('remote.url') + '/v1/mart/martHolidayInfos', options);  
+  var response = http.getUrl(config.get('remote.url') + '/v1/mart/martHolidayInfos', options);
+
+  console.log("## API Response ##");
+  console.log(response)
+
   return response;
 }

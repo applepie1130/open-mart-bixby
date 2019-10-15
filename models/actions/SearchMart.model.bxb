@@ -2,14 +2,6 @@ action (SearchMart) {
   description ("마트정보조회 API 요청 모델")
   type(Search)
   collect {
-    // input (latitude) {
-    //   type (location.Latitude)
-    //   min (Required) max (One)
-    // }
-    // input (longitutde) {
-    //   type (location.Longitude)
-    //   min (Required) max (One)
-    // }
     input (name) {
       type (Name)
       min (Optional) max (One)
