@@ -1,0 +1,3 @@
+structure (MartLocations) {
+  role-of (geo.GeoPoint)
+}

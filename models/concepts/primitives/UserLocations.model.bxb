@@ -1,0 +1,3 @@
+structure (UserLocations) {
+  role-of (geo.GeoPoint)
+}

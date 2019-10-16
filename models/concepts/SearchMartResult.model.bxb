@@ -24,12 +24,12 @@ structure (SearchMartResult) {
     type (HolidaysInfo)
     min (Optional) max (One)
   }
-  property (latitude) {
-    type (Latitude)
+  property (userLocations) {
+    type (UserLocations)
     min (Optional) max (One)
   }
-  property (longitiude) {
-    type (Longitiude)
+  property (martLocations) {
+    type (MartLocations)
     min (Optional) max (One)
-  }
+  }  
 }

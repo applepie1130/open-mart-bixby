@@ -1,0 +1,70 @@
+layout {
+  match: SearchMartResult (searchMartResult)
+  mode (Details)
+
+  content {
+    section {
+      content {
+        map-card {
+          title-area {
+            slot1 {
+              text {
+                value ("#{value(searchMartResult.name)}")
+              }
+            }
+          }
+          markers {
+            marker {              
+              geo (searchMartResult.martLocations)
+              icon ("/images/icons/red-map-marker.png")
+              width (20)
+              height (20)
+              anchor-x (5)
+              anchor-y (15)
+              rotation (0)
+            }
+          }
+        }
+        input-cell {
+          label {
+            template ("주소")
+          }
+          value {
+            template ("#{value(searchMartResult.address)}")
+          }
+          on-click {
+            intent {
+              goal: SearchMart
+            }
+          }
+        }       
+        input-cell {
+          label {
+            template ("전화번호")
+          }
+          value {
+            template ("#{value(searchMartResult.telNo)}")
+          }
+          on-click {
+            intent {
+              goal: SearchMart
+            }
+          }
+        }
+        input-cell {
+          label {
+            template ("휴일정보")
+          }
+          value {
+            template ("#{value(searchMartResult.holidaysInfo)}")
+          }
+          on-click {
+            intent {
+              goal: SearchMart
+            }
+          }
+        }                
+      }
+    }
+  }
+}
