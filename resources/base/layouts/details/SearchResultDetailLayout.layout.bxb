@@ -4,6 +4,8 @@ layout {
 
   content {
     section {
+      title ("#{value(searchMartResult.name)}")
+
       content {
         map-card {
           title-area {
@@ -12,9 +14,26 @@ layout {
                 value ("#{value(searchMartResult.name)}")
               }
             }
+            slot2 {
+              single-line {
+                text {
+                  value ("현재로부터 거리 : #{value(searchMartResult.displayDistance)}")
+                  style (Detail_L)
+                }
+              }
+            }
           }
           markers {
-            marker {              
+            marker {
+              geo (searchMartResult.userLocations)
+              icon ("/images/icons/green-map-marker.png")
+              width (15)
+              height (20)
+              anchor-x (5)
+              anchor-y (15)
+              rotation (0)
+            }
+            marker {
               geo (searchMartResult.martLocations)
               icon ("/images/icons/red-map-marker.png")
               width (20)
@@ -24,47 +43,43 @@ layout {
               rotation (0)
             }
           }
+        }// map-card
+
+        if (exists(searchMartResult.address)) {          
+          input-cell {
+            label {
+              template ("주소")
+            }
+            value {
+              template ("#{value(searchMartResult.address)}")
+            }
+          }// input-cell
         }
-        input-cell {
-          label {
-            template ("주소")
-          }
-          value {
-            template ("#{value(searchMartResult.address)}")
-          }
-          on-click {
-            intent {
-              goal: SearchMart
+        
+        if (exists(searchMartResult.telNo)) {
+          input-cell {
+            label {
+              template ("고객센터")
             }
-          }
-        }       
-        input-cell {
-          label {
-            template ("전화번호")
-          }
-          value {
-            template ("#{value(searchMartResult.telNo)}")
-          }
-          on-click {
-            intent {
-              goal: SearchMart
+            value {
+              template ("#{value(searchMartResult.telNo)}")
             }
-          }
+          }// input-cell
         }
-        input-cell {
-          label {
-            template ("휴일정보")
-          }
-          value {
-            template ("#{value(searchMartResult.holidaysInfo)}")
-          }
-          on-click {
-            intent {
-              goal: SearchMart
+
+        if (exists(searchMartResult.holidaysInfo)) {
+          input-cell {
+            label {
+              template ("휴일정보")
             }
-          }
-        }                
+            value {
+              template ("#{value(searchMartResult.holidaysInfo)}")
+            }          
+          }// input-cell
+        }
+
       }
     }
-  }
+  }// content
+
 }

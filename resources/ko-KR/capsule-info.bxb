@@ -2,7 +2,7 @@ capsule-info {
   display-name (오픈마트)
   dispatch-name (오픈마트)
   developer-name (sungjun.kim)
-  icon-asset (/images/bixby-logo.png)
+  icon-asset (/images/openmart-logo.png)
   description ("you can get information about mart holiday schedule and distance on your near place.")
   website-url ()
   terms-url ()

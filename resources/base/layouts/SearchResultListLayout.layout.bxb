@@ -19,15 +19,15 @@ layout-macro-def (searchResultListLayout) {
           single-line {
             text {
               value ("#{value(searchMartResult.address)}")
-              style (Detail_L)
+              style (Detail_M_Soft)
             }
           }
         }
         slot3 {
           single-line {
             text {
-              value ("#{value(searchMartResult.telNo)}")
-              style (Detail_M_Soft)
+              value ("#{value(searchMartResult.displayDistance)}, 휴일정보 : #{value(searchMartResult.holidaysInfo)}")
+              style (Detail_M)
             }
           }
         }
