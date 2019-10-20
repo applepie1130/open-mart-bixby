@@ -1,10 +1,10 @@
 capsule {
   id (openmart.search)
-  version (0.1.0)
+  version (0.1.1)
   format (3)
   targets {
     target (bixby-mobile-en-US) {enabled (false)}
-    target (bixby-mobile-ko-KR)
+    target (bixby-mobile-ko-KR) {enabled (true)}
   }
   runtime-flags {
     concepts-inherit-super-type-features
@@ -20,4 +20,9 @@ capsule {
     }
   }
   permissions { user-profile-access }
+
+  store-sections {
+    section (Shopping)
+    section (Local)
+  }
 }

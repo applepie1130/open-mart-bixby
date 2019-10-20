@@ -1,6 +1,9 @@
 capsule-info {
   display-name (오픈마트)
   dispatch-name (오픈마트)
+  dispatch-aliases {
+    alias (마트오픈)
+  } 
   developer-name (sungjun.kim)
   icon-asset (/images/openmart-logo.png)
   description ("you can get information about mart holiday schedule and distance on your near place.")
@@ -10,8 +13,8 @@ capsule-info {
     keyword (이마트 휴일정보)
     keyword (롯데마트 휴일정보)
     keyword (홈플러스 휴일정보)
-    keyword (코스트코 휴일정보)
-    keyword (이마트 강남점 휴일정보) 
-    keyword (근처 마트)
+    keyword (코스트코 휴일정보)    
+    keyword (마트 휴일정보)
+    keyword (마트검색)
   }
 }

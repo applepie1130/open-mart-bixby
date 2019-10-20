@@ -14,16 +14,8 @@ layout-macro-def (searchResultListLayout) {
             style (Title_S)
             value ("#{value(searchMartResult.name)}")
           }
-        }
+        }        
         slot2 {
-          single-line {
-            text {
-              value ("#{value(searchMartResult.address)}")
-              style (Detail_M_Soft)
-            }
-          }
-        }
-        slot3 {
           single-line {
             text {
               value ("#{value(searchMartResult.displayDistance)}, 휴일정보 : #{value(searchMartResult.holidaysInfo)}")
