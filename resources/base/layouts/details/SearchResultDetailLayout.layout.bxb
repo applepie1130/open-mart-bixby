@@ -4,8 +4,7 @@ layout {
 
   content {
     section {
-      title ("#{value(searchMartResult.name)}")
-
+      // title ("#{value(searchMartResult.name)}")
       content {
         map-card {
           title-area {
@@ -45,41 +44,68 @@ layout {
           }
         }// map-card
 
-        if (exists(searchMartResult.address)) {          
-          input-cell {
-            label {
-              template ("주소")
+        spacer
+          single-line{
+            text{
+              value("휴일정보")
+              style(Detail_L_Soft)
             }
-            value {
-              template ("#{value(searchMartResult.address)}")
+          }
+          single-line{
+            text{
+              value("#{value(searchMartResult.holidaysInfo)}")
+              style(Detail_L)
             }
-          }// input-cell
-        }
-        
-        if (exists(searchMartResult.telNo)) {
-          input-cell {
-            label {
-              template ("고객센터")
-            }
-            value {
-              template ("#{value(searchMartResult.telNo)}")
-            }
-          }// input-cell
-        }
+          }
 
         if (exists(searchMartResult.holidaysInfo)) {
-          input-cell {
-            label {
-              template ("휴일정보")
+             compound-card{
+              on-click{
+                intent{
+                  goal: SearchMart
+                }
+              }
+            content{
+              single-line{
+                text{
+                  value("고객센터")
+                  style(Detail_L_Soft)
+                }
+              }
+              single-line{
+                  text{
+                  value("#{value(searchMartResult.telNo)}")
+                  style(Detail_L)
+                }
+              }
             }
-            value {
-              template ("#{value(searchMartResult.holidaysInfo)}")
-            }          
-          }// input-cell
+          }
         }
-
+        //compund card 로 구성
+        if (exists(searchMartResult.address)) {
+          compound-card{
+            on-click{
+              intent{
+                goal: SearchMart
+              }
+            }
+            content{
+              single-line{
+                text{
+                  value("주소")
+                  style(Detail_L_Soft)
+                }
+              }
+              single-line{
+                  text{
+                  value("#{value(searchMartResult.address)}")
+                  style(Detail_L)
+                }
+              }
+            }
+          }
+        }
       }
     }
   }// content
-
 }

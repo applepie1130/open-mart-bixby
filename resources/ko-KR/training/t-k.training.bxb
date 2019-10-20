@@ -1,5 +1,5 @@
 train (t-kolzbpiwnvrxlp5y2js9lc2kj) {
-  utterance ("[g:SearchMartResult] (이마트)[v:Name] 오늘 쉬는날이야?")
-  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygAATBAMA)
-  last-modified (1571563339036)
+  utterance ("[g:SearchMart] (이마트)[v:Name] 오늘 쉬는날이야?")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1571570426461)
 }

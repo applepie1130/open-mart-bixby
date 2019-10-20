@@ -1,5 +1,5 @@
 train (t-9sfyn5nxtlae89ug0vej85zi2) {
-  utterance ("[g:SearchMartResult] (롯데마트)[v:Name] 휴일정보")
-  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygAATBAMA)
-  last-modified (1571031180557)
+  utterance ("[g:SearchMart] (롯데마트)[v:Name] 휴일정보")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1571569899274)
 }

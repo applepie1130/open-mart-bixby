@@ -1,5 +1,5 @@
 train (t-qk75zhd2r639rsosfpn0gr8hw) {
-  utterance ("[g:SearchMartResult] (이마트 역삼점)[v:Name] 휴일정보 알려줘")
-  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygAATBAMA)
-  last-modified (1571182828787)
+  utterance ("[g:SearchMart] (이마트 역삼점)[v:Name] 휴일정보 알려줘")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1571569890315)
 }
