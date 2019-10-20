@@ -5,29 +5,22 @@ layout-macro-def (searchResultListLayout) {
       min (Required) max (One)
     }
   }
+  
   content {
-    thumbnail-card {
-      title-area {
-        halign (Start)
-        slot1 {
-          text {
-            style (Title_S)
-            value ("#{value(searchMartResult.name)}")
-          }
-        }        
-        slot2 {
-          single-line {
-            text {
-              value ("#{value(searchMartResult.displayDistance)}, 휴일정보 : #{value(searchMartResult.holidaysInfo)}")
-              style (Detail_M)
-            }
-          }
+      cell-card {
+      slot2 {
+        content {
+          order (PrimarySecondary)
+          primary ("#{value(searchMartResult.name)}")
+          secondary ("#{value(searchMartResult.displayDistance)}, 휴일정보 : #{value(searchMartResult.holidaysInfo)}")
         }
       }
-      image-url {
-        template ("/images/#{value(searchMartResult.code)}.png")
+      slot3{
+        image {
+          url("/images/#{value(searchMartResult.code)}.png")
+          shape (Square)
+        }
       }
-      image-position (End)
     }
   }
 }
