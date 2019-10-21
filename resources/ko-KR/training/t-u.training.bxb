@@ -1,0 +1,15 @@
+train (t-ufszxm71avavnhzo4furkgvfx) {
+  utterance ([g:SearchMart] 마트알려줘)
+  plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
+  last-modified (1571646574065)
+}
+train (t-ukivwam9tbihu4qcrlw13q4hc) {
+  utterance ("[g:SearchMart] (홈플러스)[v:Name] 휴일정보 알려줘")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1571644949398)
+}
+train (t-uldmi3gx3a818g3tsez6658k6) {
+  utterance ("[g:SearchMart] (이마트 과천점)[v:Name] 휴일정보좀 알려줘")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1571646967318)
+}

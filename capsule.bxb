@@ -1,6 +1,6 @@
 capsule {
   id (openmart.search)
-  version (0.1.5)
+  version (0.2.1)
   format (3)
   targets {
     target (bixby-mobile-en-US) {enabled (false)}
@@ -15,9 +15,10 @@ capsule {
     use-input-views-for-selection-list-detail
   }
   capsule-imports {    
-    import (viv.geo) {      
-      as (geo) version (9.20.3)
-    }
+    import (viv.geo) { as (geo) version (9.20.3) }
+    import (viv.core) { as (core) }
+    import (viv.entity) { version(3.19.8) as (entity) }
+    import (viv.common) { as (common) version-from (entity)}
   }
   permissions { user-profile-access }
 

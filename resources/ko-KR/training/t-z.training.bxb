@@ -1,0 +1,10 @@
+train (t-z5ryel9qmzrr3cep735eky3hw) {
+  utterance ("[g:SearchMart] (홈플러스 안양점)[v:Name] 휴일정보")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1571646757359)
+}
+train (t-zh7kyiu9f379cwa55ukede2q4) {
+  utterance ("[g:SearchMart] (코스트코)[v:Name] 문열었어?")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1571647235645)
+}

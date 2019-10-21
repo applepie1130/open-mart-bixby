@@ -1,0 +1,10 @@
+result-view {
+  match: TelNo (this)
+  message()    
+  app-launch {
+    payload-uri ("tel: #{value(this)}")
+  }
+  render {
+    nothing
+  }
+}

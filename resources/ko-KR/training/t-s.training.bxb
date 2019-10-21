@@ -1,0 +1,5 @@
+train (t-sa7f6xx9wwibd5hbx1j6u8f1e) {
+  utterance ([g:SearchMart] 대형마트 오늘 문열었어?)
+  plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
+  last-modified (1571647289442)
+}

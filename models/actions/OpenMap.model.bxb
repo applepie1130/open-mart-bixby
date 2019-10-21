@@ -1,0 +1,11 @@
+action (OpenMap) {
+  description ("주소 지도 검색")
+  type(Constructor)
+  collect {    
+    input (address) {
+      type (Address)
+      min (Optional) max (One)
+    }
+  }
+  output (Address)
+}

@@ -1,0 +1,5 @@
+train (t-jy3hu8x2tf46pqzfas4o3pmhs) {
+  utterance ([g:SearchMart] 근처 대형마트 휴일정보 알려줄래?)
+  plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
+  last-modified (1571646920824)
+}

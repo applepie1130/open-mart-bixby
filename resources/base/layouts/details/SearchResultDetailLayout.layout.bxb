@@ -1,22 +1,21 @@
 layout {
-  match: SearchMartResult (searchMartResult)
+  match: SearchMartList (searchMartList)
   mode (Details)
 
   content {
-    section {
-      // title ("#{value(searchMartResult.name)}")
+    section {      
       content {
         map-card {
           title-area {
             slot1 {
               text {
-                value ("#{value(searchMartResult.name)}")
+                value ("#{value(name)}")
               }
             }
             slot2 {
               single-line {
                 text {
-                  value ("현재로부터 거리 : #{value(searchMartResult.displayDistance)}")
+                  value ("현재로부터 거리 : #{value(displayDistance)}")
                   style (Detail_L)
                 }
               }
@@ -24,8 +23,8 @@ layout {
           }
           markers {
             marker {
-              geo (searchMartResult.userLocations)
-              icon ("/images/icons/green-map-marker.png")
+              geo (userLocations)
+              icon ("/images/icons/user_location_pin.png")
               width (15)
               height (20)
               anchor-x (5)
@@ -33,8 +32,8 @@ layout {
               rotation (0)
             }
             marker {
-              geo (searchMartResult.martLocations)
-              icon ("/images/icons/red-map-marker.png")
+              geo (martLocations)
+              icon ("/images/icons/#{value(code)}_location_pin.png")
               width (20)
               height (20)
               anchor-x (5)
@@ -44,6 +43,7 @@ layout {
           }
         }// map-card
 
+        if (exists(holidaysInfo)) {
         spacer
           single-line{
             text{
@@ -53,16 +53,18 @@ layout {
           }
           single-line{
             text{
-              value("#{value(searchMartResult.holidaysInfo)}")
+              value("#{value(holidaysInfo)}")
               style(Detail_L)
             }
           }
+        }
 
-        if (exists(searchMartResult.holidaysInfo)) {
+        if (exists(telNo)) {
              compound-card{
               on-click{
                 intent{
-                  goal: SearchMart
+                  goal: CallNumber
+                  value: $expr(telNo)
                 }
               }
             content{
@@ -74,7 +76,7 @@ layout {
               }
               single-line{
                   text{
-                  value("#{value(searchMartResult.telNo)}")
+                  value("#{value(telNo)}")
                   style(Detail_L)
                 }
               }
@@ -82,11 +84,12 @@ layout {
           }
         }
         //compund card 로 구성
-        if (exists(searchMartResult.address)) {
+        if (exists(address)) {
           compound-card{
             on-click{
               intent{
-                goal: SearchMart
+                goal: OpenMap
+                value: $expr(address)
               }
             }
             content{
@@ -98,7 +101,7 @@ layout {
               }
               single-line{
                   text{
-                  value("#{value(searchMartResult.address)}")
+                  value("#{value(address)}")
                   style(Detail_L)
                 }
               }

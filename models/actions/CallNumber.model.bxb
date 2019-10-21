@@ -1,0 +1,11 @@
+action (CallNumber) {
+  description ("고객센터로 전화연결")
+  type(Constructor)
+  collect {    
+    input (telNo) {
+      type (TelNo)
+      min (Optional) max (One)
+    }
+  }
+  output (TelNo)
+}

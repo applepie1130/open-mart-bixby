@@ -1,23 +1,22 @@
 layout-macro-def (searchResultListLayout) {
   params {
-    param (searchMartResult) {
-      type (SearchMartResult)
-      min (Required) max (One)
+    param (searchMartList) {
+      type (SearchMartList)
+      min (Optional) max (One)
     }
   }
-  
   content {
-      cell-card {
+    cell-card {
       slot2 {
         content {
           order (PrimarySecondary)
-          primary ("#{value(searchMartResult.name)}")
-          secondary ("#{value(searchMartResult.displayDistance)}, 휴일정보 : #{value(searchMartResult.holidaysInfo)}")
+          primary ("#{value(searchMartList.name)}")
+          secondary ("#{value(searchMartList.displayDistance)}, 휴일정보 : #{value(searchMartList.holidaysInfo)}")
         }
       }
       slot3{
         image {
-          url("/images/#{value(searchMartResult.code)}.png")
+          url("/images/#{value(searchMartList.code)}.png")
           shape (Square)
         }
       }

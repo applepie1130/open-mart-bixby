@@ -1,0 +1,15 @@
+train (t-g38oja1max17gbl2vkhs99e4r) {
+  utterance ("[g:SearchMart] (이마트 분당점)[v:Name] 휴일정보")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1571646896312)
+}
+train (t-g630nnmkirblpfhp6z1qg665o) {
+  utterance ([g:SearchMart] 근처 대형마트 정보 알려줘)
+  plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
+  last-modified (1571646534066)
+}
+train (t-g86jgwj5dg4i0p3frbqx1zo41) {
+  utterance ("[g:SearchMart] (이마트)[v:Name] 문열었니?")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1571647212502)
+}

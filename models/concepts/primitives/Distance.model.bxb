@@ -1,0 +1,3 @@
+decimal (Distance) {
+  description ("마트와 현재로부터 거리 m단위")
+}

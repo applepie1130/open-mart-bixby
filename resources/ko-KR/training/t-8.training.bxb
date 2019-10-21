@@ -1,0 +1,5 @@
+train (t-8ozvyv969j9k1sx170grq7slb) {
+  utterance ("[g:SearchMart] (홈플러스 시흥점)[v:Name] 문열었어?")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1571646781967)
+}

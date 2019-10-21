@@ -1,0 +1,5 @@
+train (t-5hxn090idpff6k87m0g4zrj3l) {
+  utterance ("[g:SearchMart] (코스트코 양재점)[v:Name] 휴일정보")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1571645163686)
+}

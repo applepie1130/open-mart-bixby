@@ -1,0 +1,5 @@
+train (t-6zuhky5jo1yk4cjgy5nbs4rcc) {
+  utterance ("[g:SearchMart] (롯데마트 월드타워점)[v:Name] 문열었어?")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1571646656653)
+}

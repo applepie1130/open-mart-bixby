@@ -1,0 +1,10 @@
+result-view {
+  match: Address (this)
+  message()    
+  app-launch {
+    payload-uri ("#{value(this)}")
+  }
+  render {
+    nothing
+  }
+}

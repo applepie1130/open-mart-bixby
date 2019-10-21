@@ -3,12 +3,12 @@ var console = require('console');
 var config = require('config');
 
 module.exports.function = function searchMart (name, myLocation) {
-  console.log("## Search Mart ##");
+  console.log('## Search Mart ##');
 
   var latitude = myLocation.latitude;
   var longitude = myLocation.longitude;
 
-  console.log("## parameters ##");
+  console.log('## parameters ##');
   console.log(name);
   console.log(latitude);
   console.log(longitude);
@@ -25,7 +25,7 @@ module.exports.function = function searchMart (name, myLocation) {
   // Call API
   var response = http.getUrl(config.get('remote.url') + '/v1/mart/martHolidayInfos', options);
 
-  console.log("## API Response ##");
+  console.log('## API Response ##');
   console.log(response)
 
   return response;

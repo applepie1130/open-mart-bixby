@@ -1,35 +1,11 @@
 structure (SearchMartResult) {
   description ("마트정보조회 API 응답 상세결과 모델")
-  property (code) {
-    type (Code)
-    min (Optional) max (One)
+  property (message) {
+    type (Message)
+    min (Required) max (One)
   }
-  property (name) {
-    type (Name)
-    min (Optional) max (One)
-  }
-  property (telNo) {
-    type (TelNo)
-    min (Optional) max (One)
-  }
-  property (address) {
-    type (Address)
-    min (Optional) max (One)
-  }
-  property (displayDistance) {
-    type (DisplayDistance)
-    min (Optional) max (One)
-  }
-  property (holidaysInfo) {
-    type (HolidaysInfo)
-    min (Optional) max (One)
-  }
-  property (userLocations) {
-    type (UserLocations)
-    min (Optional) max (One)
-  }
-  property (martLocations) {
-    type (MartLocations)
-    min (Optional) max (One)
+  property (searchMartList) {
+    type (SearchMartList)
+    min (Optional) max (Many)
   }  
 }

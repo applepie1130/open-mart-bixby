@@ -1,0 +1,5 @@
+train (t-2q6a5ejz7460nnab2i2k28aob) {
+  utterance ("[g:SearchMart] (롯데마트)[v:Name] 오늘 문열었어?")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1571647181562)
+}

@@ -1,0 +1,10 @@
+train (t-p702i452m60ddvopqepuke3fo) {
+  utterance ("[g:SearchMart] (코스트코광명점)[v:Name] 문열었어?")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1571645237337)
+}
+train (t-phbw44xj4wfh3cetg7ealmgcv) {
+  utterance ("[g:SearchMart] (롯데마트 행당역점)[v:Name] 오늘 문열었어?")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1571646631193)
+}

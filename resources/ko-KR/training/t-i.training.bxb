@@ -1,0 +1,5 @@
+train (t-ixup4w6ivuy4ox9j4zgqezytz) {
+  utterance ("[g:SearchMart] (홈플러스 금천점)[v:Name] 휴일정보 알려줄래?")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1571646840033)
+}

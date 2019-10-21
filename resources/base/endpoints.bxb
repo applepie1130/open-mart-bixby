@@ -4,5 +4,15 @@ endpoints {
       accepted-inputs (name, myLocation)
       local-endpoint (SearchMart.js)
     }
+  
+    action-endpoint (CallNumber) {
+        accepted-inputs (telNo)
+        local-endpoint (CallNumber.js)
+    }
+
+    action-endpoint (OpenMap) {
+        accepted-inputs (address)
+        local-endpoint (OpenMap.js)
+    }
   }
 }

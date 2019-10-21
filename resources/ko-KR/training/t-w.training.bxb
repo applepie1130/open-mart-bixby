@@ -1,3 +1,8 @@
+train (t-w3mgfoap5gu7h27lvq9kqtlhu) {
+  utterance ([g:SearchMart] 대형마트 휴일정보)
+  plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
+  last-modified (1571645003599)
+}
 train (t-wofw5zs08kn0l708i7vbm75lr) {
   utterance ([g:SearchMart] 마트 휴일정보 알려줘)
   plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
