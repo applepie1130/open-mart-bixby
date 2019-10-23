@@ -24,18 +24,18 @@ layout {
           markers {
             marker {
               geo (userLocations)
-              icon ("/images/icons/user_location_pin.png")
-              width (15)
-              height (20)
+              icon ("/images/icons/user_location_pin.png")              
+              width (30)
+              height (32)
               anchor-x (5)
               anchor-y (15)
               rotation (0)
             }
             marker {
               geo (martLocations)
-              icon ("/images/icons/#{value(code)}_location_pin.png")
-              width (20)
-              height (20)
+              icon ("/images/icons/#{value(code)}_location_pin.png")              
+              width (30)
+              height (35)
               anchor-x (5)
               anchor-y (15)
               rotation (0)

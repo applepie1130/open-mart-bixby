@@ -1,0 +1,5 @@
+train (t-vsf6oadyz03u4negaqgzdz3jn) {
+  utterance ([g:SearchMart] 마트휴일정보좀)
+  plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
+  last-modified (1571835308748)
+}

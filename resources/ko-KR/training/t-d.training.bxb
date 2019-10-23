@@ -1,0 +1,10 @@
+train (t-demx291j6dz9h3d5yck4u3gqt) {
+  utterance ([g:SearchMart] 근처에 대형마트 정보좀 알려줘)
+  plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
+  last-modified (1571835359173)
+}
+train (t-domysz1npf789h78m0km1im7d) {
+  utterance ([g:SearchMart] 근처 대형마트 휴일정보)
+  plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
+  last-modified (1571835800734)
+}

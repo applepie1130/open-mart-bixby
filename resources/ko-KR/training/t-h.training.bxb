@@ -1,0 +1,5 @@
+train (t-hypez5t6vrpnlku2mdm2zl9kt) {
+  utterance ("[g:SearchMart] (이마트)[v:Name] 쉬는날인지 알려줘")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1571834748480)
+}

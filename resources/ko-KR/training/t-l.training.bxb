@@ -1,0 +1,5 @@
+train (t-l600cmd3zp04v2cx8c99ez0cf) {
+  utterance ([g:SearchMart] 근처마트)
+  plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
+  last-modified (1571834986983)
+}

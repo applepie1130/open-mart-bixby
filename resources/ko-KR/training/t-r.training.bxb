@@ -1,3 +1,8 @@
+train (t-ra2fqhome4t5x1vp2p3xwhfjp) {
+  utterance ([g:SearchMart] 내주변에 있는 마트좀 알려줘)
+  plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
+  last-modified (1571835424974)
+}
 train (t-rbthg7k9t5rj2jhlyhph51420) {
   utterance ("[g:SearchMart] (롯데마트 서초점)[v:Name] 문열었어?")
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)

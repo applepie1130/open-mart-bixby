@@ -3,8 +3,18 @@ train (t-p702i452m60ddvopqepuke3fo) {
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
   last-modified (1571645237337)
 }
+train (t-pd5qfna35demia72qwfzqlzb4) {
+  utterance ("[g:SearchMart] (이마트)[v:Name] 휴일정보 알려줄래?")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1571835233437)
+}
 train (t-phbw44xj4wfh3cetg7ealmgcv) {
   utterance ("[g:SearchMart] (롯데마트 행당역점)[v:Name] 오늘 문열었어?")
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
   last-modified (1571646631193)
+}
+train (t-pwq4jlwq64x6idoq9w76ffu86) {
+  utterance ("[g:SearchMart] 근처 (롯데마트)[v:Name] 휴일정보")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1571835790388)
 }

@@ -1,0 +1,15 @@
+train (t-b5huli1nx276ibyugxtgt3osl) {
+  utterance ("[g:SearchMart] (롯데마트)[v:Name] 쉬는날인지 알려줄래?")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1571834791235)
+}
+train (t-bjud31q5xon10kr0jx8nf41yq) {
+  utterance ("[g:SearchMart] (홈플러스)[v:Name] 쉬는날 알려줘")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1571834837531)
+}
+train (t-buw6mc8rmnrdfugnf6tbhcs8v) {
+  utterance ([g:SearchMart] 근처 대형마트 정보좀)
+  plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
+  last-modified (1571835392824)
+}

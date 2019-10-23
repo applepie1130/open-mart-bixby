@@ -1,3 +1,8 @@
+train (t-j7k43w0k58evy4qzkiuumga1x) {
+  utterance ("[g:SearchMart] (코스트코)[v:Name] 휴일정보 좀 알려줘")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1571835127693)
+}
 train (t-jy3hu8x2tf46pqzfas4o3pmhs) {
   utterance ([g:SearchMart] 근처 대형마트 휴일정보 알려줄래?)
   plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)

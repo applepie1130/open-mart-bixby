@@ -6,7 +6,7 @@ train (t-g38oja1max17gbl2vkhs99e4r) {
 train (t-g630nnmkirblpfhp6z1qg665o) {
   utterance ([g:SearchMart] 근처 대형마트 정보 알려줘)
   plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
-  last-modified (1571646534066)
+  last-modified (1571835060454)
 }
 train (t-g86jgwj5dg4i0p3frbqx1zo41) {
   utterance ("[g:SearchMart] (이마트)[v:Name] 문열었니?")

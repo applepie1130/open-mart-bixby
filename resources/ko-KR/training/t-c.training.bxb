@@ -3,3 +3,8 @@ train (t-c1cgh6tva76lxqxp3uljm7td3) {
   plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
   last-modified (1571646985993)
 }
+train (t-cfeyrr85gwpyp61a7tm0yviyz) {
+  utterance ([g:SearchMart] 근처 대형마트좀 알려줘)
+  plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
+  last-modified (1571835411452)
+}

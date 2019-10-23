@@ -1,0 +1,10 @@
+train (t-euz3l3w0zevz26s6qlhkg7mf5) {
+  utterance ([g:SearchMart] 주변 마트정보 알려줄래)
+  plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
+  last-modified (1571835525898)
+}
+train (t-ezegh2nfbazs5hhpah7nlgos7) {
+  utterance ("[g:SearchMart] 주변 (코스트코)[v:Name] 휴일정보")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1571835731774)
+}

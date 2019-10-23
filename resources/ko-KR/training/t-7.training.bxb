@@ -1,0 +1,5 @@
+train (t-7rk3akzebwav268z6oimwmupd) {
+  utterance ("[g:SearchMart] (홈플러스)[v:Name] 쉬는날 알려줘")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1571835169518)
+}

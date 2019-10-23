@@ -3,3 +3,13 @@ train (t-01m4d8b9jjto8jrueh1wmr7sq) {
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
   last-modified (1571647255394)
 }
+train (t-09iue8p79y440tq2393wgzt0i) {
+  utterance ("[g:SearchMart] (롯데마트 강변점)[v:Name] 휴일정보")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1571835615032)
+}
+train (t-0a7ylxi1hiugtv4e695w5bo3q) {
+  utterance ("[g:SearchMart] 가까운 마트정보좀 ")
+  plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
+  last-modified (1571835508951)
+}

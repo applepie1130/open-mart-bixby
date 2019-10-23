@@ -1,3 +1,18 @@
+train (t-1gt7mvt07xban2who73pkcp95) {
+  utterance ([g:SearchMart] 근처 대형마트 알려줘)
+  plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
+  last-modified (1571835372631)
+}
+train (t-1jfaouf0xlqqu6cf22c8r96ap) {
+  utterance ("[g:SearchMart] (롯데마트)[v:Name] 휴일 알려줘 ")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1571835148268)
+}
+train (t-1quanvvhpw9c2fi485na7f1uu) {
+  utterance ("[g:SearchMart] 내 주변 (이마트)[v:Name] 정보 알려줘")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1571835451617)
+}
 train (t-1uwt6bqe0q8vvns9syrpwlc6l) {
   utterance ("[g:SearchMart] (롯데마트 잠실점)[v:Name]")
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)

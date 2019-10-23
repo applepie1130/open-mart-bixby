@@ -1,0 +1,5 @@
+train (t-tritmj4h1w0yynbp2tlgzc2st) {
+  utterance ([g:SearchMart] 근처 대형마트 휴일정보)
+  plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
+  last-modified (1571838170004)
+}

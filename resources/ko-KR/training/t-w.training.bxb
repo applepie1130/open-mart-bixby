@@ -3,6 +3,16 @@ train (t-w3mgfoap5gu7h27lvq9kqtlhu) {
   plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
   last-modified (1571645003599)
 }
+train (t-w876f2xtw7xb9h2ga3217xp83) {
+  utterance ("[g:SearchMart] (코스트코)[v:Name] 쉬는날인지 알려줘")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1571834817640)
+}
+train (t-wgjgdpa9qohv3us5dx4tqhfd3) {
+  utterance ([g:SearchMart] 내주변에 있는 대형마트정보좀 알려줘)
+  plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
+  last-modified (1571835434215)
+}
 train (t-wofw5zs08kn0l708i7vbm75lr) {
   utterance ([g:SearchMart] 마트 휴일정보 알려줘)
   plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)

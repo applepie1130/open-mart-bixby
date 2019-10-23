@@ -1,5 +1,15 @@
+train (t-kjaubouobx3v2ce0mer2ostab) {
+  utterance ("[g:SearchMart] (롯데마트 잠실점)[v:Name]")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1571835590536)
+}
 train (t-kolzbpiwnvrxlp5y2js9lc2kj) {
   utterance ("[g:SearchMart] (이마트)[v:Name] 오늘 쉬는날이야?")
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
   last-modified (1571570426461)
+}
+train (t-krgkis090g4tete717035jl4s) {
+  utterance ("[g:SearchMart] (롯데마트)[v:Name] 쉬는날")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1571835204114)
 }

@@ -1,5 +1,20 @@
+train (t-83k0wtqvhhukp3fz936jywtmf) {
+  utterance ("[g:SearchMart] (이마트 송도점)[v:Name] 휴일정보 알려줘")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1571835554568)
+}
+train (t-8ao0d8i4frvuqau9f6dn5ar49) {
+  utterance ([g:SearchMart] 대형마트 정보좀 알려줘)
+  plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
+  last-modified (1571835292726)
+}
 train (t-8ozvyv969j9k1sx170grq7slb) {
   utterance ("[g:SearchMart] (홈플러스 시흥점)[v:Name] 문열었어?")
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
   last-modified (1571646781967)
+}
+train (t-8z2hea2h3fhlncd7ygoxed6rf) {
+  utterance ([g:SearchMart] 대형마트)
+  plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
+  last-modified (1571834970940)
 }

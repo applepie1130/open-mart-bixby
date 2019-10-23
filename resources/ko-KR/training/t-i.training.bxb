@@ -1,3 +1,8 @@
+train (t-i0nvqp1ynlwx5t2y9i7cj9izn) {
+  utterance ([g:SearchMart] 주변 대형마트)
+  plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
+  last-modified (1571834976456)
+}
 train (t-ixup4w6ivuy4ox9j4zgqezytz) {
   utterance ("[g:SearchMart] (홈플러스 금천점)[v:Name] 휴일정보 알려줄래?")
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)

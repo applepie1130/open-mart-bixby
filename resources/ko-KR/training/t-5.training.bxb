@@ -1,3 +1,13 @@
+train (t-5ayrdpyxve977ntlh70jkr8np) {
+  utterance ([g:SearchMart] 대형마트 쉬는날인지 알려줘)
+  plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
+  last-modified (1571834946565)
+}
+train (t-5emu5yx2wtgf0rfh1t4ngqmwz) {
+  utterance ([g:SearchMart] 대형마트 정보)
+  plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
+  last-modified (1571835316938)
+}
 train (t-5hxn090idpff6k87m0g4zrj3l) {
   utterance ("[g:SearchMart] (코스트코 양재점)[v:Name] 휴일정보")
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)

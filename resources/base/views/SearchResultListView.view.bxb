@@ -33,7 +33,7 @@ result-view {
         template ("롯데마트 휴일정보 알려줘")
       }
       conversation-driver {
-        template ("근처 대형마트 알려줘")
+        template ("근처 대형마트 휴일정보")
       }
     }
 }

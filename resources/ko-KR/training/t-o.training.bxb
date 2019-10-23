@@ -1,0 +1,15 @@
+train (t-o850o9ce94vonyu2lmeppt3wj) {
+  utterance ("[g:SearchMart] 가까운 (코스트코)[v:Name] 알려줘")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1571835500414)
+}
+train (t-o9vg26np3mzsz0ne84eql86ny) {
+  utterance ([g:SearchMart] 대형마트 쉬는날 정보 알려줘)
+  plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
+  last-modified (1571834962211)
+}
+train (t-oayqvjg623soo6sst3t539qj0) {
+  utterance ("[g:SearchMart] 근처 (홈플러스)[v:Name] 휴일정보")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1571835756632)
+}
