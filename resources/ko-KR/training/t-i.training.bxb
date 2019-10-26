@@ -1,7 +1,17 @@
+train (t-i02gg62xy5e0pxtuw1gdf8v8g) {
+  utterance ("[g:SearchMart] 다음주 (이마트 양재점)[v:Name] 열어")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572090208486)
+}
 train (t-i0nvqp1ynlwx5t2y9i7cj9izn) {
   utterance ([g:SearchMart] 주변 대형마트)
   plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
   last-modified (1571834976456)
+}
+train (t-ifqnp5c78r0p5nj1nzm4xb6yu) {
+  utterance ("[g:SearchMart] (이마트 양재점)[v:Name] 문 열어")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572088023433)
 }
 train (t-ixup4w6ivuy4ox9j4zgqezytz) {
   utterance ("[g:SearchMart] (홈플러스 금천점)[v:Name] 휴일정보 알려줄래?")

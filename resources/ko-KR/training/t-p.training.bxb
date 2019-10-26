@@ -1,7 +1,17 @@
+train (t-p2sh1b3o0p2m4fuzgw5wouohg) {
+  utterance ("[g:SearchMart] 내일 (이마트)[v:Name] 열어")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572090114188)
+}
 train (t-p702i452m60ddvopqepuke3fo) {
   utterance ("[g:SearchMart] (코스트코광명점)[v:Name] 문열었어?")
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
   last-modified (1571645237337)
+}
+train (t-p9dgzvoximygx74xih5d1epo2) {
+  utterance ("[g:SearchMart] 이번 주 주말에 (이마트)[v:Name] 열어")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572091264451)
 }
 train (t-pd5qfna35demia72qwfzqlzb4) {
   utterance ("[g:SearchMart] (이마트)[v:Name] 휴일정보 알려줄래?")
@@ -12,6 +22,11 @@ train (t-phbw44xj4wfh3cetg7ealmgcv) {
   utterance ("[g:SearchMart] (롯데마트 행당역점)[v:Name] 오늘 문열었어?")
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
   last-modified (1571646631193)
+}
+train (t-pmqdzxedy53a52py8gmikbuo0) {
+  utterance ("[g:SearchMart] 오늘 (이마트)[v:Name] 열어")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572090076658)
 }
 train (t-pwq4jlwq64x6idoq9w76ffu86) {
   utterance ("[g:SearchMart] 근처 (롯데마트)[v:Name] 휴일정보")

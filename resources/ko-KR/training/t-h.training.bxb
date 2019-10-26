@@ -1,3 +1,8 @@
+train (t-hjcequso960xroc58yvub86ns) {
+  utterance ("[g:SearchMart] (이마트)[v:Name] 언제 쉬는지 알려줘")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572091401382)
+}
 train (t-hypez5t6vrpnlku2mdm2zl9kt) {
   utterance ("[g:SearchMart] (이마트)[v:Name] 쉬는날인지 알려줘")
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)

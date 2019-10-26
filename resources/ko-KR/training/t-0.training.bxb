@@ -13,3 +13,13 @@ train (t-0a7ylxi1hiugtv4e695w5bo3q) {
   plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
   last-modified (1571835508951)
 }
+train (t-0jvzhzhku53xweirtqkrts7ic) {
+  utterance ("[g:SearchMart] 오늘 (이마트 양재점)[v:Name] 열어")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572090096178)
+}
+train (t-0zrax38uhpggijmbjjbpbhgmj) {
+  utterance ("[g:SearchMart] (이마트 양재점)[v:Name] 쉬어")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572087987299)
+}

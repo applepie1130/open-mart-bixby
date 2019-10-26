@@ -1,3 +1,8 @@
+train (t-fpsu1yj0l28cbjc9q6qpcj6rt) {
+  utterance ("[g:SearchMart] 이번주 (이마트)[v:Name] 열어")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572090154890)
+}
 train (t-frtutz7colh4p8epq91sa9xt1) {
   utterance ("[g:SearchMart] (이마트 송도점)[v:Name]")
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)

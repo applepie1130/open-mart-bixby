@@ -3,3 +3,8 @@ train (t-vsf6oadyz03u4negaqgzdz3jn) {
   plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
   last-modified (1571835308748)
 }
+train (t-vsnnjzj6nfehkn20j9yohlipr) {
+  utterance ("[g:SearchMart] (이마트 양재점)[v:Name] 오늘 열어")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572088297842)
+}

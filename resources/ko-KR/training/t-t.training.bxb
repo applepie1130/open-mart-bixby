@@ -3,3 +3,8 @@ train (t-tritmj4h1w0yynbp2tlgzc2st) {
   plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
   last-modified (1571838170004)
 }
+train (t-ts45390ei9abfudbz7pr1q4cf) {
+  utterance ("[g:SearchMart] (이마트 양재점)[v:Name] 요번주")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572088563001)
+}

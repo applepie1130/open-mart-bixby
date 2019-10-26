@@ -8,6 +8,11 @@ train (t-9ezvovvm4dnn7r8mo4th748ma) {
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
   last-modified (1571835639636)
 }
+train (t-9i535khehtfl0ivthjlxvyty8) {
+  utterance ("[g:SearchMart] 다음주 (이마트 양재점)[v:Name] 쉬어")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572090039792)
+}
 train (t-9sfyn5nxtlae89ug0vej85zi2) {
   utterance ("[g:SearchMart] (롯데마트)[v:Name] 휴일정보")
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)

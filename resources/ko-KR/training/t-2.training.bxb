@@ -1,5 +1,30 @@
+train (t-22rhabvuszsxazh448gnf6wsc) {
+  utterance ("[g:SearchMart] 오늘 (이마트)[v:Name] 쉬어")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572089693317)
+}
+train (t-2lkg4a551os8pwj7ksg0kl7qr) {
+  utterance ("[g:SearchMart] (이마트 양재점)[v:Name] 열어")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572088071381)
+}
+train (t-2mjzejf5xl7mw7wrqzkcpj7zz) {
+  utterance ("[g:SearchMart] (이마트 양재점)[v:Name] 오늘 쉬는 날이야")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572087938845)
+}
+train (t-2nm9s1ew9l4zcye3wcr12tkum) {
+  utterance ("[g:SearchMart] (이마트 양재점)[v:Name] 다음주 열어")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572088445970)
+}
 train (t-2q6a5ejz7460nnab2i2k28aob) {
   utterance ("[g:SearchMart] (롯데마트)[v:Name] 오늘 문열었어?")
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
   last-modified (1571647181562)
+}
+train (t-2vgy58k6z40zf2cbgskff8vk1) {
+  utterance ("[g:SearchMart] 이번주 (이마트 양재점)[v:Name] 열어")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572090172642)
 }

@@ -1,3 +1,8 @@
+train (t-s7rw5ho8thj3ofe55ykfe78dq) {
+  utterance ("[g:SearchMart] (이마트)[v:Name] 쉬는날 언제야")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572089866807)
+}
 train (t-sa7f6xx9wwibd5hbx1j6u8f1e) {
   utterance ([g:SearchMart] 대형마트 오늘 문열었어?)
   plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)

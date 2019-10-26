@@ -3,10 +3,20 @@ train (t-q1shgl9du39meih3bccwwmvdl) {
   plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
   last-modified (1571835536795)
 }
+train (t-q8ibxz4c3gzk2vovyicwawk3x) {
+  utterance ("[g:SearchMart] 다음주 (이마트)[v:Name] 열어")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572090191421)
+}
 train (t-qg5e6kyx6i6rj35j6n5pjtwiu) {
   utterance ("[g:SearchMart] (이마트 죽전점)[v:Name] 휴일정보 알려줄래?")
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
   last-modified (1571646875764)
+}
+train (t-qi5z5yazynr4b2gj3dnlsv2me) {
+  utterance ("[g:SearchMart] (이마트)[v:Name] 언제 문 열어")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572090635375)
 }
 train (t-qk75zhd2r639rsosfpn0gr8hw) {
   utterance ("[g:SearchMart] (이마트 역삼점)[v:Name] 휴일정보 알려줘")

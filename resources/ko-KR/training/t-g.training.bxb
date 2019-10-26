@@ -13,3 +13,8 @@ train (t-g86jgwj5dg4i0p3frbqx1zo41) {
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
   last-modified (1571647212502)
 }
+train (t-gjbpvbare1oawzyqwzac4n2qj) {
+  utterance ("[g:SearchMart] 이번주 (이마트)[v:Name] 쉬어")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572089973901)
+}

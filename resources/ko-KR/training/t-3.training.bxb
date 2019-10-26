@@ -1,0 +1,5 @@
+train (t-3mwy0umuo2xw2mfqrnrjpupty) {
+  utterance ("[g:SearchMart] 내일 (이마트 양재점)[v:Name] 쉬어")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572089943426)
+}

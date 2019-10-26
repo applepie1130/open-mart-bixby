@@ -3,6 +3,11 @@ train (t-admdg159j3b515hiiyjgxklkf) {
   plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
   last-modified (1571835281946)
 }
+train (t-anlsuhasyruft5zh5q6gc34xb) {
+  utterance ("[g:SearchMart] (이마트 양재점)[v:Name] 오늘 가도 되")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572088214648)
+}
 train (t-aqrd7thxhit90x8z7nj8sdxhz) {
   utterance ("[g:SearchMart] (이마트)[v:Name] 쉬는날")
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)

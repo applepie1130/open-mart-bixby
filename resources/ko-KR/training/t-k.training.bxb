@@ -3,6 +3,11 @@ train (t-kjaubouobx3v2ce0mer2ostab) {
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
   last-modified (1571835590536)
 }
+train (t-ko00orwe7xdsk56ch4h4wu9bo) {
+  utterance ("[g:SearchMart] (이마트)[v:Name] 언제")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572090506800)
+}
 train (t-kolzbpiwnvrxlp5y2js9lc2kj) {
   utterance ("[g:SearchMart] (이마트)[v:Name] 오늘 쉬는날이야?")
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
