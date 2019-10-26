@@ -8,7 +8,7 @@ capsule-info {
   icon-asset (/images/openmart-logo.png)
   description ("매번 기억하기 어려운 마트 휴일정보. 이제는 오픈마트에게 물어보세요. 근처에 있는 모든 마트나 특정 마트(이마트, 롯데마트, 홈플러스, 코스트코)의 휴일정보도 대답해 줄게요.")
   website-url (https://github.com/applepie1130/open-mart-bixby)
-  terms-url (https://github.com/applepie1130/open-mart-bixby/blob/master/privacy-policy.html)
+  terms-url (https://github.com/applepie1130/open-mart-bixby/blob/master/privacy-policy.adoc)
   search-keywords {
     keyword (이마트 휴일정보)
     keyword (롯데마트 휴일정보)
