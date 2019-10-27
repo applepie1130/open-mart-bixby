@@ -23,3 +23,8 @@ train (t-cnlgluylphlfbo0woa5un1802) {
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
   last-modified (1572089489569)
 }
+train (t-cqbt17c527inj308qudljek3t) {
+  utterance ("[g:SearchMart] (이마트)[v:Name] 휴일정보 알려줘")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572142224636)
+}
