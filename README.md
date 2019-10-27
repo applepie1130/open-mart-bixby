@@ -27,7 +27,7 @@
 "오픈마트에서, 근처마트 문 연 마트 알려줘"
 ```
 
-## 5. 이용약관 및 개인정보처리방침
+## 5. 개인정보처리방침
 [개인정보처리방침](https://github.com/applepie1130/open-mart-bixby/blob/master/privacy-policy.adoc)
 
 ## 6. Contact
