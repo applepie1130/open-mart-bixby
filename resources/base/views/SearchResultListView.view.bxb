@@ -9,7 +9,7 @@ result-view {
     render {
       if (size(searchMartList) > 1) {
         list-of (searchMartList) {
-          has-details (true)
+          //has-details (true)
           where-each (item) {
             layout-macro (searchResultListLayout) {
               param (searchMartList) {
