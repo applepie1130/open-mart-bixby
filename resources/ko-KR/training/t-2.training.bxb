@@ -3,6 +3,11 @@ train (t-22rhabvuszsxazh448gnf6wsc) {
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
   last-modified (1572089693317)
 }
+train (t-2k4tgcgs4h48mvgjjd0ulyz48) {
+  utterance ([g:SearchMart] 대형마트 휴일정보 알려줘)
+  plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
+  last-modified (1572141771479)
+}
 train (t-2lkg4a551os8pwj7ksg0kl7qr) {
   utterance ("[g:SearchMart] (이마트 양재점)[v:Name] 열어")
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)

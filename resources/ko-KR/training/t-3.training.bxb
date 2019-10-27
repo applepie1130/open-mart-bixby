@@ -1,3 +1,8 @@
+train (t-31tvf7y4nlh8pc5t45b7rkbhr) {
+  utterance ("[g:SearchMart] (롯데마트)[v:Name] 휴일")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572141833218)
+}
 train (t-3mwy0umuo2xw2mfqrnrjpupty) {
   utterance ("[g:SearchMart] 내일 (이마트 양재점)[v:Name] 쉬어")
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)

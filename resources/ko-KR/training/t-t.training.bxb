@@ -1,3 +1,8 @@
+train (t-titgu2erglgrf3ear4nqt1gkr) {
+  utterance ("[g:SearchMart] (이마트)[v:Name] 휴일")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572141803159)
+}
 train (t-tritmj4h1w0yynbp2tlgzc2st) {
   utterance ([g:SearchMart] 근처 대형마트 휴일정보)
   plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)

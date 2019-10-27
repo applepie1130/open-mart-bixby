@@ -1,3 +1,13 @@
+train (t-m3uaq874qv4pzkol2mpkhc3br) {
+  utterance ("[g:SearchMart] (홈플러스)[v:Name]")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572141735085)
+}
+train (t-m7yh7r5x1ize8lg1ipk86c8xb) {
+  utterance ("[g:SearchMart] (코스트코)[v:Name] 휴일정보")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572141573587)
+}
 train (t-mblck71pzfwonja23afyagkcz) {
   utterance ("[g:SearchMart] 이번주 주말에 (이마트)[v:Name] 열어")
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)

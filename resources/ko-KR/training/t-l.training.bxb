@@ -3,6 +3,11 @@ train (t-l600cmd3zp04v2cx8c99ez0cf) {
   plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
   last-modified (1571834986983)
 }
+train (t-lgo4m186se0pe20ksp68ctt38) {
+  utterance ("[g:SearchMart] (코스트코)[v:Name] 휴일")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572141832364)
+}
 train (t-lj5b0sbimkbdaq3riyqmy9szs) {
   utterance ("[g:SearchMart] (이마트 양재점)[v:Name] 휴일 언제")
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)

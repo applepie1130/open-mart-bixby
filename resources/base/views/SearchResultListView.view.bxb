@@ -28,12 +28,12 @@ result-view {
     conversation-drivers {
         conversation-driver {
           template ("이마트 휴일정보 알려줘")
+        }        
+        conversation-driver {
+          template ("롯데마트 휴일정보 알려줘")
         }
         conversation-driver {
           template ("홈플러스 휴일정보 알려줘")
-        }
-        conversation-driver {
-          template ("롯데마트 휴일정보 알려줘")
         }
         conversation-driver {
           template ("코스트코 휴일정보 알려줘")

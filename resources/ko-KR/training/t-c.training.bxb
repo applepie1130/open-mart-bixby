@@ -1,3 +1,8 @@
+train (t-c0anzl520kt03y1ll551hbwfc) {
+  utterance ("[g:SearchMart] (홈플러스)[v:Name] 휴일")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572141906894)
+}
 train (t-c1cgh6tva76lxqxp3uljm7td3) {
   utterance ([g:SearchMart] 내 근처 마트 휴일정보)
   plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)

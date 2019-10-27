@@ -3,6 +3,11 @@ train (t-hjcequso960xroc58yvub86ns) {
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
   last-modified (1572091401382)
 }
+train (t-ho5ey72i5kvvf46lecf99liuo) {
+  utterance ("[g:SearchMart] (이마트)[v:Name] 휴일정보 알려줄래")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572141677573)
+}
 train (t-hypez5t6vrpnlku2mdm2zl9kt) {
   utterance ("[g:SearchMart] (이마트)[v:Name] 쉬는날인지 알려줘")
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)

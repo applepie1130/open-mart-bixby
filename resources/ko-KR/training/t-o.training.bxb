@@ -18,6 +18,11 @@ train (t-oayqvjg623soo6sst3t539qj0) {
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
   last-modified (1571835756632)
 }
+train (t-or42q0efpcfgolniqzie835wx) {
+  utterance ("[g:SearchMart] (롯데마트)[v:Name] 휴일정보 알려줘")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572141636713)
+}
 train (t-ououk4216hpxjfif231davi7w) {
   utterance ("[g:SearchMart] 내일 (이마트)[v:Name] 쉬어")
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)

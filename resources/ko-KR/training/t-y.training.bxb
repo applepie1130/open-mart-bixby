@@ -3,6 +3,11 @@ train (t-y0spg4n8i8yxr91mazsj2rgf7) {
   plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
   last-modified (1571838230820)
 }
+train (t-yqyy5gh5scqqquzwdhnpy5m1n) {
+  utterance ("[g:SearchMart] (홈플러스)[v:Name] 휴일")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572141922522)
+}
 train (t-yrcuigwbb81l2e666897iq8gi) {
   utterance ([g:SearchMart] 주변 대형마트 알려줘)
   plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)

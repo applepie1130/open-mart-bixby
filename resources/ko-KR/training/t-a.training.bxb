@@ -1,3 +1,8 @@
+train (t-a5hcommbf0tv68g3s01jnw1g2) {
+  utterance ("[g:SearchMart] (코스트코)[v:Name] 휴일정보")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572141512882)
+}
 train (t-admdg159j3b515hiiyjgxklkf) {
   utterance ([g:SearchMart] 대형마트 알려줘)
   plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
@@ -7,6 +12,11 @@ train (t-anlsuhasyruft5zh5q6gc34xb) {
   utterance ("[g:SearchMart] (이마트 양재점)[v:Name] 오늘 가도 되")
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
   last-modified (1572088214648)
+}
+train (t-aqp8uz1paod1oauaxotbdbopz) {
+  utterance ("[g:SearchMart] (코스트코)[v:Name] 휴일정보 알려줘")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572141622244)
 }
 train (t-aqrd7thxhit90x8z7nj8sdxhz) {
   utterance ("[g:SearchMart] (이마트)[v:Name] 쉬는날")
