@@ -28,9 +28,7 @@
 ```
 
 ## 5. 이용약관 및 개인정보처리방침
-[이용약관](https://github.com/applepie1130/open-mart-bixby/blob/master/access-terms.adoc)
-
 [개인정보처리방침](https://github.com/applepie1130/open-mart-bixby/blob/master/privacy-policy.adoc)
 
-## 6. Support
-Email : arduous1130@gmail.com
+## 6. Contact
+e-mail : arduous1130@gmail.com
