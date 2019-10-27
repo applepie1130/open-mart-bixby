@@ -11,7 +11,12 @@
   - 사용자의 현재위치와 해당마트와의 거리정보 지도제공
   - 전화걸기 및 지도 웹사이트로 이동기능 제공
 
-## 3. 발화예시
+## 3. 스크린샷
+| 주변 대형마트 검색결과                                                                               | 코스트코 검색결과                                                                                | 이마트 검색 상세결과                                                                                |
+| ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| [![Screenshot of result1](./screenshots/screenshot-all.png)](./screenshots/screenshot-all.png) | [![Screenshot of result2](./screenshots/screenshot-select.png)](./screenshots/screenshot-select.png) | [![Screenshot of result of detail](./screenshots/screenshot-detail.png)](./screenshots/screenshot-detail.png) |
+
+## 4. 발화예시
 ```
 "오픈마트에서, 이마트 오늘 문 열었어?"
 "오픈마트에서, 이마트 양재점 문 열었어?"
@@ -22,10 +27,10 @@
 "오픈마트에서, 근처마트 문 연 마트 알려줘"
 ```
 
-## 4. 이용약관 및 개인정보처리방침
+## 5. 이용약관 및 개인정보처리방침
 [이용약관](https://github.com/applepie1130/open-mart-bixby/blob/master/access-terms.adoc)
 
 [개인정보처리방침](https://github.com/applepie1130/open-mart-bixby/blob/master/privacy-policy.adoc)
 
-## 5. Support
+## 6. Support
 Email : arduous1130@gmail.com
