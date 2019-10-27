@@ -13,6 +13,11 @@ train (t-b86dpnwin45g8ux0sq2gcq6jv) {
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
   last-modified (1572088374870)
 }
+train (t-ba93g1eb82f6ofjgzmsxo3rlp) {
+  utterance ("[g:SearchMart] (롯데마트)[v:Name] 문열었어?")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572179946469)
+}
 train (t-bjud31q5xon10kr0jx8nf41yq) {
   utterance ("[g:SearchMart] (홈플러스)[v:Name] 쉬는날 알려줘")
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)

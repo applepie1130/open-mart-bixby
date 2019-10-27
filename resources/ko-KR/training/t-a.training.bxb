@@ -33,3 +33,8 @@ train (t-auveni7vxc6heg7oumv45dint) {
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
   last-modified (1571835697944)
 }
+train (t-aw42s0f1jukuf9omlfhjvkor3) {
+  utterance ("[g:SearchMart] (이마트)[v:Name] 문열었어?")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572179911751)
+}

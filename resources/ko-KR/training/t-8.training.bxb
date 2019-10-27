@@ -1,3 +1,8 @@
+train (t-807miauv9av7il5687eo4rjlb) {
+  utterance ("[g:SearchMart] (롯데마트)[v:Name] 언제쉬는지 알려줘")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572180348880)
+}
 train (t-83k0wtqvhhukp3fz936jywtmf) {
   utterance ("[g:SearchMart] (이마트 송도점)[v:Name] 휴일정보 알려줘")
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)

@@ -1,3 +1,8 @@
+train (t-e75uwv5wcvt5f7j9nlr24bo3a) {
+  utterance ([g:SearchMart] 근처에 문 연 마트 알려줘)
+  plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
+  last-modified (1572180500173)
+}
 train (t-euz3l3w0zevz26s6qlhkg7mf5) {
   utterance ([g:SearchMart] 주변 마트정보 알려줄래)
   plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)

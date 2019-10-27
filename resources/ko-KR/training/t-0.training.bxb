@@ -18,6 +18,16 @@ train (t-0jvzhzhku53xweirtqkrts7ic) {
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
   last-modified (1572090096178)
 }
+train (t-0np10j1wbx517quqv4cklvl9a) {
+  utterance ([g:SearchMart] 근처 문 연 마트 알려줘)
+  plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
+  last-modified (1572179967676)
+}
+train (t-0yo6c849cg8bq3rpf5pufy91e) {
+  utterance ("[g:SearchMart] (코스트코)[v:Name] 문 열었어?")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572180022273)
+}
 train (t-0zrax38uhpggijmbjjbpbhgmj) {
   utterance ("[g:SearchMart] (이마트 양재점)[v:Name] 쉬어")
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)

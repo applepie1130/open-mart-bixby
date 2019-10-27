@@ -8,6 +8,11 @@ train (t-2k4tgcgs4h48mvgjjd0ulyz48) {
   plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
   last-modified (1572141771479)
 }
+train (t-2kr2uf5ufbywfum2kyy3ykqz3) {
+  utterance ("[g:openmart.search.SearchMart] (이마트 양재점)[v:openmart.search.Name] 오늘 문 열었어")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572180211132)
+}
 train (t-2lkg4a551os8pwj7ksg0kl7qr) {
   utterance ("[g:SearchMart] (이마트 양재점)[v:Name] 열어")
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)

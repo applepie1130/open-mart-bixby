@@ -8,3 +8,13 @@ train (t-zh7kyiu9f379cwa55ukede2q4) {
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
   last-modified (1571647235645)
 }
+train (t-zp18xtgui0ldnivqc1th2dhea) {
+  utterance ("[g:SearchMart] (롯데마트)[v:Name] 오늘 문 열었어")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572180261499)
+}
+train (t-zvj17a8rywp2fo3a6cfo5k8cl) {
+  utterance ([g:SearchMart] 대형마트 휴일)
+  plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
+  last-modified (1572178655410)
+}

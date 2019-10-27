@@ -8,6 +8,11 @@ train (t-ho5ey72i5kvvf46lecf99liuo) {
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
   last-modified (1572141677573)
 }
+train (t-hv56yon38xer1wm00i5lgqx9j) {
+  utterance ("[g:SearchMart] (홈플러스)[v:Name] 언제쉬는지 알려줘")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572180372090)
+}
 train (t-hypez5t6vrpnlku2mdm2zl9kt) {
   utterance ("[g:SearchMart] (이마트)[v:Name] 쉬는날인지 알려줘")
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)

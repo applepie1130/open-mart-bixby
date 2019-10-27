@@ -18,3 +18,8 @@ train (t-1uwt6bqe0q8vvns9syrpwlc6l) {
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
   last-modified (1571646607261)
 }
+train (t-1wzb3klvrct4fz9qsp4vyse3l) {
+  utterance ("[g:SearchMart] (홈플러스)[v:Name] 문열었어?")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572179987375)
+}

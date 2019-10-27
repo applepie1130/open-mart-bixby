@@ -13,11 +13,6 @@ train (t-ifqnp5c78r0p5nj1nzm4xb6yu) {
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
   last-modified (1572088023433)
 }
-train (t-ijf7b7tdxn2s4x62kqmdsh70v) {
-  utterance ("[g:openmart.search.SearchMart] (대형마트)[v:openmart.search.Name] 휴일")
-  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
-  last-modified (1572141889581)
-}
 train (t-imouhb2v5g2q71xvp51znilid) {
   utterance ("[g:SearchMart] (홈플러스)[v:Name] 휴일정보 알려줘")
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)

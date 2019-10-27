@@ -18,6 +18,11 @@ train (t-mlud0agoe2q7euulbuo00sz1d) {
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
   last-modified (1571835772318)
 }
+train (t-mo8av82han3voinygx2ju2jlv) {
+  utterance ("[g:SearchMart] (홈플러스)[v:Name] 오늘 문 열었어")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572180300312)
+}
 train (t-mpgkk71cb4nfjza106carpciw) {
   utterance ("[g:SearchMart] (홈플러스)[v:Name] 문열었어?")
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)

@@ -1,3 +1,13 @@
+train (t-6kjn5tx5mx5smxt0lg7zcveb7) {
+  utterance ([g:SearchMart] 마트 휴일정보 알려줘)
+  plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
+  last-modified (1572178693754)
+}
+train (t-6swtomjnne0w7teod5dxp0sg1) {
+  utterance ("[g:SearchMart] (코스트코)[v:Name] 오늘 문 열었어")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1572180280771)
+}
 train (t-6zuhky5jo1yk4cjgy5nbs4rcc) {
   utterance ("[g:SearchMart] (롯데마트 월드타워점)[v:Name] 문열었어?")
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
