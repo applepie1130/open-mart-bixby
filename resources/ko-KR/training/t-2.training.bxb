@@ -1,3 +1,8 @@
+train (t-201l1erkl1cvzpx04dgs2fwvl) {
+  utterance ([g:SearchMart] 주변 마트정보 알려줘)
+  plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
+  last-modified (1572940997552)
+}
 train (t-22rhabvuszsxazh448gnf6wsc) {
   utterance ("[g:SearchMart] 오늘 (이마트)[v:Name] 쉬어")
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)

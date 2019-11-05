@@ -13,6 +13,11 @@ train (t-frtutz7colh4p8epq91sa9xt1) {
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
   last-modified (1571645119946)
 }
+train (t-fuotqc3jcdftkzpqa84i8az3j) {
+  utterance ([g:SearchMart] 주변 마트 알려줘)
+  plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
+  last-modified (1572941009262)
+}
 train (t-fw3l7bpioziq54l0yaunr69hk) {
   utterance ([g:SearchMart] 근처 대형마트 알려줘)
   plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)

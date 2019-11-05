@@ -1,3 +1,8 @@
+train (t-62casfnrbfcvq9h7tpum80gym) {
+  utterance ([g:SearchMart] 근처 마트정보 알려줘)
+  plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
+  last-modified (1572940985829)
+}
 train (t-6kjn5tx5mx5smxt0lg7zcveb7) {
   utterance ([g:SearchMart] 마트 휴일정보 알려줘)
   plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)

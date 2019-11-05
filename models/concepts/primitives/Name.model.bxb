@@ -1,3 +1,6 @@
 text (Name) {
   description ("마트명")
+  features{
+    transient
+ }
 }
