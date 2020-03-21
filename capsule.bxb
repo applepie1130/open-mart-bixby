@@ -1,27 +1,43 @@
 capsule {
   id (openmart.search)
-  version (1.1.5)
+  version (1.2.0)
   format (3)
   targets {
-    target (bixby-mobile-en-US) {enabled (false)}
     target (bixby-mobile-ko-KR) {enabled (true)}
+    target (bixby-mobile-en-US) {enabled (false)}
+    //target (bixby-speaker-ko-KR) {enabled (true)}
   }
-  runtime-flags {
-    concepts-inherit-super-type-features
-    modern-prompt-rejection
-    support-halt-effect-in-computed-inputs
-    no-filtering-with-validation
-    modern-default-view-behavior
-    use-input-views-for-selection-list-detail
+
+  runtime-version (2) {
+    overrides {      
+      concepts-inherit-super-type-features (true)
+      modern-prompt-rejection (true)
+      support-halt-effect-in-computed-inputs (true)
+      no-filtering-with-validation (true)
+      modern-default-view-behavior (true)
+      use-input-views-for-selection-list-detail (true)
+    }
   }
+  
   capsule-imports {    
-    import (viv.geo) { as (geo) version (9.20.3) }
-    import (viv.core) { as (core) }
+    import (viv.entity) { version(4.0.14) as (entity) }
+    import (viv.core){ as (core) version-from (entity)}
+    import (viv.common) { version(4.0.3) as (common) }
+    import (viv.geo) { as (geo) version-from (entity) }
+    import (viv.self) { version(3.5.215) as (self) }
   }
-  permissions { user-profile-access }
+  
+  permissions{
+    user-profile-access
+  }
 
   store-sections {
     section (Shopping)
     section (Local)
+  }
+  store-countries{
+    only{
+      allow (KR)
+    }
   }
 }
