@@ -2,41 +2,72 @@ result-view {
     match: SearchMartResult (searchMartResult) {
       from-output: SearchMart
     }
-    message {      
-      template ("#{value(searchMartResult.message)}")
-    }
-
+    // message {      
+    //   template ("#{value(searchMartResult.message)}")
+    // }
+    
     render {
-      if (size(searchMartList) > 1) {
-        list-of (searchMartList) {
-          has-details (true)
-          where-each (item) {
-            layout-macro (searchResultListLayout) {
-              param (searchMartList) {
-                expression (item)
+      if (size(searchMartResult.searchMartList) > 1) {
+
+        if ($handsFree) { 
+          // layout version
+          layout-match (searchMartList[0]) {
+            mode (Details)
+          }
+
+        } else {
+          list-of (searchMartResult.searchMartList) {
+            has-details (true)
+            
+            // navigation-mode{
+            //   read-many {
+            //     page-size (size(searchMartResult.searchMartList))
+            //     list-summary ("현재 선택할 수 있는 마트가 검색되었습니다")
+            //     page-content {
+            //       underflow-statement (첫 번째 마트입니다)
+            //       overflow-statement (마트를 모두 말씀드렸습니다)
+            //     }
+            //   }
+            // }         
+
+            where-each (item) {
+              layout-macro (searchResultListLayout) {
+                param (searchMartList) {
+                  expression (item)
+                }
               }
             }
-          }
-        } 
-      } else-if (size(searchMartList) == 1) {
-        layout-match (searchMartList) {
+          } 
+        }
+      } else-if (size(searchMartResult.searchMartList) == 1) {
+        // layout version
+        layout-match (searchMartList[0]) {
           mode (Details)
         }
+
+        // layout macro version
+        // layout{
+        //   layout-macro (searchResultDetailLayout){
+        //     param(searchMartList){
+        //       expression (searchMartResult.searchMartList)
+        //     }
+        //   }
+        // }
       }
     }
     
     conversation-drivers {
-        conversation-driver {
-          template ("이마트 휴일정보 알려줘")
-        }        
-        conversation-driver {
-          template ("롯데마트 휴일정보 알려줘")
-        }
-        conversation-driver {
-          template ("홈플러스 휴일정보 알려줘")
-        }
-        conversation-driver {
-          template ("코스트코 휴일정보 알려줘")
-        }    
+      conversation-driver {
+        template ("이마트 휴일정보 알려줘")
+      }        
+      conversation-driver {
+        template ("롯데마트 휴일정보 알려줘")
+      }
+      conversation-driver {
+        template ("홈플러스 휴일정보 알려줘")
+      }
+      conversation-driver {
+        template ("코스트코 휴일정보 알려줘")
+      } 
    }
 }

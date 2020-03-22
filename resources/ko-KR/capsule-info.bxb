@@ -14,4 +14,9 @@ capsule-info {
     keyword (마트 휴일정보)
     keyword (마트검색)
   }
+  requested-permissions{
+    permission (user-profile-access){
+      justification ("사용자의 위치 정보를 사용합니다.")
+    }
+  }
 }

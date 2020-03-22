@@ -1,17 +1,23 @@
 // // https://bixbydevelopers.com/dev/docs/reference/type/dialog
-// dialog (Result) {
-//   match: SearchMartResult(this)
+dialog (Result) {
+  match: SearchMartResult(this)  
   
-//   if(size(searchMartList) > 1){
-//       if($handsFree){
-//         template ("[#{value(this.username)} 님,] 선택하신 지역의 맛집을 확인해보세요!"){
-//           speech ("지금 보고 계신 가게 이름은 #{value(this.name)} 입니다. 이 가게의 소개는 다음과 같습니다. #{value(this.description)}")
-//         }
-//       }else{
-//         template ("[#{value(this.username)} 님,] 선택하신 지역의 맛집을 확인해보세요!")   
-//       }
-      
-//     }else{
-//       template ("[#{value(this.username)} 님,] 선택하신 지역의 맛집들을 가져와 보았어요!")                   
-//     }
-// }
+  if(size(searchMartList) > 1){
+    if($handsFree){
+      template ("가장 가까운 마트인 #{value(searchMartList[0].name)}으로 검색된 결과입니다. #{value(searchMartList[0].name)}의 쉬는날은 #{value(searchMartList[0].holidaysInfo)}이네요.")
+     // {
+        // speech ("가장 가까운 마트인 #{value(searchMartList[0].name)}으로 검색된 결과입니다. #{value(searchMartList[0].name)}의 쉬는날은 #{value(searchMartList[0].holidaysInfo)}이며, 현재 위치로부터 #{value(searchMartList[0].displayDistance)}거리에 있습니다.")
+      //}
+    }else{
+      template ("#{value(this.message)}")
+    }
+  }else{
+    if($handsFree){
+      template ("#{value(this.message)}"){
+        speech ("가장 가까운 마트인 #{value(this.message)}")
+      }
+    }else{
+      template ("#{value(this.message)}")
+    }   
+  }
+}
