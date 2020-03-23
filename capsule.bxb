@@ -1,23 +1,12 @@
 capsule {
   id (openmart.search)
-  version (1.2.0)
+  version (2.0.0)
   format (3)
   targets {
     target (bixby-mobile-ko-KR) {enabled (true)}
     target (bixby-mobile-en-US) {enabled (false)}
     //target (bixby-speaker-ko-KR) {enabled (true)}
   }
-
-  // runtime-version (2) {
-  //   overrides {      
-  //     concepts-inherit-super-type-features (true)
-  //     modern-prompt-rejection (true)
-  //     support-halt-effect-in-computed-inputs (true)
-  //     no-filtering-with-validation (true)
-  //     modern-default-view-behavior (true)
-  //     use-input-views-for-selection-list-detail (true)
-  //   }
-  // }
   
   runtime-version (3)
   

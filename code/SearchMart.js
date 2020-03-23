@@ -2,23 +2,26 @@ var http = require('http');
 var console = require('console');
 var config = require('config');
 
-module.exports.function = function searchMart (name, myLocation) {
+module.exports.function = function searchMart (name, myLocation, $vivContext) {
   console.log('## Search Mart ##');
 
   var latitude = myLocation.latitude;
   var longitude = myLocation.longitude;
+  var isHandsfree = $vivContext.handsFree; 
 
-  console.log('## parameters ##');
+  console.log('## parameters ##');  
   console.log(name);
   console.log(latitude);
   console.log(longitude);
+  console.log(isHandsfree)
 
   var options = { 
     format: 'json',
     query: {
       'latitude': latitude,
       'longitude': longitude,
-      'martName': name
+      'martName': name,
+      'isHandsfree': isHandsfree
     }
   };
 

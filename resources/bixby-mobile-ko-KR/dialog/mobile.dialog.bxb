@@ -4,7 +4,11 @@ dialog (Result) {
   
   if(size(searchMartList) > 1){
     if($handsFree){
-      template ("가장 가까운 마트인 #{value(searchMartList[0].name)}으로 검색된 결과입니다. #{value(searchMartList[0].name)}의 쉬는날은 #{value(searchMartList[0].holidaysInfo)}이네요.")
+      template ("#{value(this.message)}"){
+        speech ("#{value(this.message)}")
+      }
+
+      // template ("가장 가까운 마트인 #{value(searchMartList[0].name)}으로 검색된 결과입니다. #{value(searchMartList[0].name)}의 쉬는날은 #{value(searchMartList[0].holidaysInfo)}이네요.")
      // {
         // speech ("가장 가까운 마트인 #{value(searchMartList[0].name)}으로 검색된 결과입니다. #{value(searchMartList[0].name)}의 쉬는날은 #{value(searchMartList[0].holidaysInfo)}이며, 현재 위치로부터 #{value(searchMartList[0].displayDistance)}거리에 있습니다.")
       //}
@@ -14,7 +18,7 @@ dialog (Result) {
   }else{
     if($handsFree){
       template ("#{value(this.message)}"){
-        speech ("가장 가까운 마트인 #{value(this.message)}")
+        speech ("#{value(this.message)}")
       }
     }else{
       template ("#{value(this.message)}")

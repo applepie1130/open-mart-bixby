@@ -1,3 +1,132 @@
+// layout version
+layout {
+  match: SearchMartList (searchMartList)
+  mode (Details)
+  content {
+    section {
+      content {
+        map-card {
+          title-area {
+            slot1 {
+              text {
+                value ("#{value(searchMartList.name)}")
+              }
+            }
+            slot2 {
+              single-line {
+                text {
+                  value ("현재로부터 거리 : #{value(searchMartList.displayDistance)}")
+                  style (Detail_L)
+                }
+              }
+            }
+          }
+          markers {
+            marker {
+              geo (searchMartList.userLocations)
+              icon ("/images/icons/user_location_pin.png")              
+              width (30)
+              height (32)
+              anchor-x (5)
+              anchor-y (15)
+              rotation (0)
+            }
+            marker {
+              geo (searchMartList.martLocations)
+              icon ("/images/icons/#{value(searchMartList.code)}_location_pin.png")              
+              width (30)
+              height (35)
+              anchor-x (5)
+              anchor-y (15)
+              rotation (0)
+            }
+          }
+        }// map-card
+
+        if (exists(searchMartList.holidaysInfo)) {
+        spacer
+          single-line{
+            text{
+              value("휴일정보")
+              style(Detail_L_Soft)
+            }
+          }
+          single-line{
+            text{
+              value("#{value(searchMartList.holidaysInfo)}")
+              style(Detail_L)
+            }
+          }
+        }
+
+        if (exists(searchMartList.telNo)) {
+             compound-card{
+              on-click{
+                intent{
+                  goal: CallNumber
+                  value: $expr(searchMartList.telNo)
+                }
+              }
+            content{
+              single-line{
+                text{
+                  value("고객센터")
+                  style(Detail_L_Soft)
+                }
+              }
+              single-line{
+                  text{
+                  value("#{value(searchMartList.telNo)}")
+                  style(Detail_L)
+                }
+              }
+            }
+          }
+        }
+        //compund card 로 구성
+        if (exists(searchMartList.address)) {
+          compound-card{
+            on-click{
+              intent{
+                goal: OpenMap
+                value: $expr(searchMartList.address)
+              }
+            }
+            content{
+              single-line{
+                text{
+                  value("주소")
+                  style(Detail_L_Soft)
+                }
+              }
+              single-line{
+                  text{
+                  value("#{value(searchMartList.address)}")
+                  style(Detail_L)
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }// content
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // macro version
 // layout-macro-def (searchResultDetailLayout) {
@@ -117,119 +246,3 @@
 //     }
 //   }// content
 // }
-
-
-// layout version
-layout {
-  match: SearchMartList (searchMartList)
-  mode (Details)
-  content {
-    section {
-      content {
-        map-card {
-          title-area {
-            slot1 {
-              text {
-                value ("#{value(searchMartList.name)}")
-              }
-            }
-            slot2 {
-              single-line {
-                text {
-                  value ("현재로부터 거리 : #{value(searchMartList.displayDistance)}")
-                  style (Detail_L)
-                }
-              }
-            }
-          }
-          markers {
-            marker {
-              geo (searchMartList.userLocations)
-              icon ("/images/icons/user_location_pin.png")              
-              width (30)
-              height (32)
-              anchor-x (5)
-              anchor-y (15)
-              rotation (0)
-            }
-            marker {
-              geo (searchMartList.martLocations)
-              icon ("/images/icons/#{value(searchMartList.code)}_location_pin.png")              
-              width (30)
-              height (35)
-              anchor-x (5)
-              anchor-y (15)
-              rotation (0)
-            }
-          }
-        }// map-card
-
-        if (exists(searchMartList.holidaysInfo)) {
-        spacer
-          single-line{
-            text{
-              value("휴일정보")
-              style(Detail_L_Soft)
-            }
-          }
-          single-line{
-            text{
-              value("#{value(searchMartList.holidaysInfo)}")
-              style(Detail_L)
-            }
-          }
-        }
-
-        if (exists(searchMartList.telNo)) {
-             compound-card{
-              on-click{
-                intent{
-                  goal: CallNumber
-                  value: $expr(searchMartList.telNo)
-                }
-              }
-            content{
-              single-line{
-                text{
-                  value("고객센터")
-                  style(Detail_L_Soft)
-                }
-              }
-              single-line{
-                  text{
-                  value("#{value(searchMartList.telNo)}")
-                  style(Detail_L)
-                }
-              }
-            }
-          }
-        }
-        //compund card 로 구성
-        if (exists(searchMartList.address)) {
-          compound-card{
-            on-click{
-              intent{
-                goal: OpenMap
-                value: $expr(searchMartList.address)
-              }
-            }
-            content{
-              single-line{
-                text{
-                  value("주소")
-                  style(Detail_L_Soft)
-                }
-              }
-              single-line{
-                  text{
-                  value("#{value(searchMartList.address)}")
-                  style(Detail_L)
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }// content
-}

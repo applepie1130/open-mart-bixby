@@ -1,0 +1,11 @@
+result-view {
+    match: SearchMartResult (searchMartResult) {
+      from-output: SearchMart
+    }
+    render {      
+      // layout version
+      layout-match (searchMartList[0]) {
+        mode (Details)
+      }
+    }
+}

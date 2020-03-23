@@ -1,0 +1,7 @@
+// // https://bixbydevelopers.com/dev/docs/reference/type/dialog
+dialog (Result) {
+  match: SearchMartResult(this)
+  template ("#{value(this.message)}"){
+    speech ("#{value(this.message)}")
+  }
+}
