@@ -1,7 +1,7 @@
 train (t-01m4d8b9jjto8jrueh1wmr7sq) {
   utterance ("[g:SearchMart] (롯데마트)[v:Name] 문열었어?")
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
-  last-modified (1571647255394)
+  last-modified (1585287953071)
 }
 train (t-09iue8p79y440tq2393wgzt0i) {
   utterance ("[g:SearchMart] (롯데마트 강변점)[v:Name] 휴일정보")

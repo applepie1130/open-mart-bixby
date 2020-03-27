@@ -38,6 +38,11 @@ train (t-2q6a5ejz7460nnab2i2k28aob) {
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
   last-modified (1571647181562)
 }
+train (t-2qijv8wpwsw0cxmca7ml73j9c) {
+  utterance ("[g:SearchMart] 오늘 (롯데마트)[v:Name] 쉬는날이야")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1585287872012)
+}
 train (t-2vgy58k6z40zf2cbgskff8vk1) {
   utterance ("[g:SearchMart] 이번주 (이마트 양재점)[v:Name] 열어")
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)

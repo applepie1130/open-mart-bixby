@@ -18,3 +18,8 @@ train (t-wofw5zs08kn0l708i7vbm75lr) {
   plan (Y2BiUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGBiBkAGKgSQA)
   last-modified (1571566701583)
 }
+train (t-wpbarwcas4nk7j6yrntu7l07c) {
+  utterance ("[g:SearchMart] 오늘 (홈플러스)[v:Name] 쉬는날이야")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1585287931125)
+}

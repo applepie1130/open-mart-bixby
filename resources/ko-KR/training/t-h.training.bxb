@@ -1,3 +1,13 @@
+train (t-h3f4u26oyp18djuxx3svhlt27) {
+  utterance ("[g:SearchMart] 오늘 (이마트)[v:Name] 쉬는날이야")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1585287878688)
+}
+train (t-hisxqphj0kdd1i87yswsp165u) {
+  utterance ("[g:SearchMart] (이마트 양재점)[v:Name] 알려줘")
+  plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
+  last-modified (1585287807826)
+}
 train (t-hjcequso960xroc58yvub86ns) {
   utterance ("[g:SearchMart] (이마트)[v:Name] 언제 쉬는지 알려줘")
   plan (Y2BmUMgvSM3LTSwq0StOTSxKztALBlO+QJGg1OLSnBIGKdwqGETQ5fwSc1MZmBgYgZgBSDIygACUDwA=)
