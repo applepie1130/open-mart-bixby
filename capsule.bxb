@@ -1,6 +1,6 @@
 capsule {
   id (openmart.search)
-  version (2.0.1)
+  version (2.0.2)
   format (3)
   targets {
     target (bixby-mobile-ko-KR) {enabled (true)}
@@ -8,13 +8,13 @@ capsule {
     //target (bixby-speaker-ko-KR) {enabled (true)}
   }
   
-  runtime-version (3)
+  runtime-version (4)
   
   capsule-imports {    
-    import (viv.entity) { version(4.0.14) as (entity) }
+    import (viv.entity) { version(4.0.14) as (entity)}
     import (viv.core){ as (core) version-from (entity)}
     import (viv.common) { version(4.0.3) as (common) }
-    import (viv.geo) { as (geo) version-from (entity) }    
+    import (viv.geo) { as (geo) version-from (entity)}
   }
   
   permissions{
