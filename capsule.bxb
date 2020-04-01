@@ -8,7 +8,7 @@ capsule {
     //target (bixby-speaker-ko-KR) {enabled (true)}
   }
   
-  runtime-version (4)
+  runtime-version (5)
   
   capsule-imports {    
     import (viv.entity) { version(4.0.14) as (entity)}
